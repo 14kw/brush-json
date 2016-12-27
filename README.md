@@ -1,11 +1,9 @@
-# brush-javascript
+# brush-json
 
-[![GratiPay](https://img.shields.io/gratipay/user/alexgorbatchev.svg)](https://gratipay.com/alexgorbatchev/)
-[![Build Status](https://travis-ci.org/syntaxhighlighter/brush-javascript.svg)](https://travis-ci.org/syntaxhighlighter/brush-javascript)
-![Downloads](https://img.shields.io/npm/dm/brush-javascript.svg)
-![Version](https://img.shields.io/npm/v/brush-javascript.svg)
+Json brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter).
 
-JavaScript brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter).
+JSON is included in brush-javascript.
+However, I do not like syntax, so I will create it separately.
 
 ## Usage
 

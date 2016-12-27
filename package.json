@@ -1,22 +1,22 @@
 {
-  "name": "brush-javascript",
+  "name": "brush-json",
   "version": "4.0.0",
   "description": "Brush module for SyntaxHighlighter.",
   "keywords": [
     "syntaxhighlighter",
     "brush",
-    "javascript"
+    "json"
   ],
-  "homepage": "https://github.com/syntaxhighlighter/brush-javascript",
-  "bugs": "https://github.com/syntaxhighlighter/brush-javascript/issues",
+  "homepage": "https://github.com/14kw/brush-json",
+  "bugs": "https://github.com/14kw/brush-json/issues",
   "author": {
-    "name": "Alex Gorbatchev",
-    "url": "https://github.com/alexgorbatchev"
+    "name": "Takayuki Ishikawa",
+    "url": "https://github.com/14kw"
   },
   "main": "brush.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/syntaxhighlighter/brush-javascript.git"
+    "url": "https://github.com/14kw/brush-json.git"
   },
   "scripts": {
     "test": "babel-node --only='syntaxhighlighter-*,brush-*' node_modules/.bin/_mocha --opts mocha.opts test.js"

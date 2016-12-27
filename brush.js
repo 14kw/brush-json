@@ -11,24 +11,16 @@ function Brush() {
 
   this.regexList = [
     {
-      regex: regexLib.multiLineDoubleQuotedString,
+      regex: /"([^\\"\n]|\\.)*"(?=:)/,
       css: 'string'
     },
     {
-      regex: regexLib.multiLineSingleQuotedString,
-      css: 'string'
+      regex: /-?(0|[1-9]\d*)(\.\d+)?([eE][+-]?\d+)?/g,
+      css: 'number'
     },
     {
-      regex: regexLib.singleLineCComments,
-      css: 'comments'
-    },
-    {
-      regex: regexLib.multiLineCComments,
-      css: 'comments'
-    },
-    {
-      regex: /\s*#.*/gm,
-      css: 'preprocessor'
+      regex: /"([^\\"\n]|\\.)*"/g,
+      css: 'value'
     },
     {
       regex: new RegExp(this.getKeywords(keywords), 'gm'),
@@ -40,5 +32,5 @@ function Brush() {
 }
 
 Brush.prototype = new BrushBase();
-Brush.aliases = ['js', 'jscript', 'javascript', 'json'];
+Brush.aliases = ['json'];
 module.exports = Brush;
