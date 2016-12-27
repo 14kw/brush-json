@@ -4,7 +4,7 @@ var match = require('syntaxhighlighter-match');
 var Brush = require('./brush');
 var sample = require('fs').readFileSync('./sample.txt', 'utf8');
 
-describe('brush-javascript', function() {
+describe('brush-json', function() {
   var instance = null;
 
   before(function() {
